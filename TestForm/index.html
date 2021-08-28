@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TestYourMight</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+       <h1>Тест первый. Как хорошо ты меня знаешь?</h1>
+       <p>Что бы пройти набери хотя бы 80 баллов</p>
+       <div class="quiz-test-block">
+         <form class="quiz-test">
+          <button class="button" type="submit" data-action="open-modal">Проверить</button>
+         </form>
+        
+        <div class="backdrop">
+        <div class="modal">
+        <h2>ВАШ РЕЗУЛЬТАТ:</h2>
+        <p id="total-scores">
+        </p>
+        <p id="score-text"></p>
+        <button type="button" class="button" data-action="close-modal">Посмотреть ответы</button>
+      </div>
+    </div>
+    </div> 
+    
+    <script src="test-data.js" type="module"></script>
+    <script src="test.js" type="module"></script>
+  </body>
+</html>
